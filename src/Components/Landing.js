@@ -26,6 +26,9 @@ class Landing extends Component {
             <a href={this.landingData.github}>
               <FontAwesomeIcon icon={faGithub} />
             </a>
+            {/* <a href={this.landingData.twitter}>
+                <FontAwesomeIcon icon={fatwitter} />
+            </a> */}
           </div>
         </div>
       </section>
