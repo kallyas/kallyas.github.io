@@ -1,0 +1,30 @@
+{
+    "design": [
+      "Product Design",
+      "UX Design",
+      "Visual Design (UI)",
+      "Wire-framing + Prototyping",
+      "Journey-Mapping",
+      "UX Research",
+      "Logo and Branding",
+      "Creative "
+    ],
+    "development": [
+      "HTML",
+      "SASS + CSS",
+      "Javascript + jQuery",
+      "ReactJS",
+      "API Integrations",
+      "Working within SDKs"
+    ],
+    "software": [
+      "Postman",
+      "Sketch",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Figma",
+      "InVision",
+      "Visual Studio Code"
+    ]
+  }
+  
