@@ -2,7 +2,7 @@ import skills from "../skills.json";
 
 const Skills = () => {
   return (
-    <div className="container">
+    <div className="container" id="skills">
       <div className="row justify-content-center">
         <div className="col-12 col-md-8 text-center mb-4 mb-md-6">
           <h2 className="display-2 fw-bold">Skills</h2>
