@@ -2,7 +2,7 @@ import { ProductDesign, ProtoTyping, Development, TeamLead } from ".";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className="row justify-content-center mb-0 mb-md-6">
         <div className="col-6 col-md-3 text-center mb-5 mb-md-0">
           <div className="mb-2 mb-md-3">
@@ -58,7 +58,6 @@ const About = () => {
             object oriented patterns, build scripts, pre-processors and minification, source code
             management, testing as well as deployment.
           </p>
-          <img className="mt-3" src="../../assets/img/signature.svg" alt="signature" width="100" />
         </div>
       </div>
     </div>
