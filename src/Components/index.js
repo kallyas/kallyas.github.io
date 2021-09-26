@@ -10,6 +10,8 @@ import TeamLead from "./TeamLead";
 import Experience from "./Experience";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 
 export {
@@ -24,5 +26,7 @@ export {
     TeamLead,
     Experience,
     Skills,
-    Projects
+    Projects,
+    Contact,
+    Footer
 }

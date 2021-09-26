@@ -6,17 +6,14 @@ const Navbar = () => {
         className="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light"
       >
         <div className="container position-relative">
-          <a className="navbar-brand me-lg-5" href="../../index.html">
-            <img className="navbar-brand-dark" src="../../assets/img/brand/light.svg" alt="Logo light" />
-            <img className="navbar-brand-light" src="../../assets/img/brand/dark.svg" alt="Logo dark" />
+          <a className="navbar-brand me-lg-5" href="/" style={{ fontSize: 50}}>
+            TI
           </a>
           <div className="navbar-collapse collapse me-auto" id="navbar_global">
             <div className="navbar-collapse-header">
               <div className="row">
                 <div className="col-6 collapse-brand">
-                  <a href="../../index.html">
-                    <img src="../../assets/img/brand/dark.svg" alt="Themesberg logo" />
-                  </a>
+                  TI
                 </div>
                 <div className="col-6 collapse-close">
                   <a
@@ -28,29 +25,34 @@ const Navbar = () => {
                     aria-expanded="false"
                     title="close"
                     aria-label="Toggle navigation"
-                  ></a>
+                  >Toggle</a>
                 </div>
               </div>
             </div>
             <ul className="navbar-nav navbar-nav-hover align-items-lg-center">
               <li className="nav-item ">
-                <a href="#" className="nav-link ">
-                  Pages
+                <a href="#about" className="nav-link ">
+                  About
                 </a>
               </li>
               <li className="nav-item ">
-                <a href="#" className="nav-link ">
-                  Dashboard
+                <a href="#experience" className="nav-link ">
+                  Experience
                 </a>
               </li>
               <li className="nav-item ">
-                <a href="#" className="nav-link ">
-                  Components
+                <a href="#skills" className="nav-link ">
+                  Skills
                 </a>
               </li>
               <li className="nav-item ">
-                <a href="#" className="nav-link ">
-                  Support
+                <a href="#projects" className="nav-link ">
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item ">
+                <a href="#contact" className="nav-link ">
+                  Contact
                 </a>
               </li>
             </ul>

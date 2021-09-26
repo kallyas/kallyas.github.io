@@ -2,7 +2,7 @@ import experience from "../experience.json";
 
 const Experience = () => {
   return (
-    <div className="container">
+    <div className="container" id="experience">
       <div className="row justify-content-center">
         <div className="col-12 col-md-8 text-center mb-5 mb-lg-6">
           <h2 className="display-2 fw-bold">Experience</h2>

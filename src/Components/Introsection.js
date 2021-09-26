@@ -7,7 +7,7 @@ const Introsection = () => {
               <img
                 src="profile.png"
                 className="rounded-circle img-thumbnail image-lg border-gray-300 p-2"
-                alt="Profile image"
+                alt="my Profile"
               />
               <div className="mt-4 mb-5">
                 <h1 className="display-2 fw-normal my-4">
@@ -38,26 +38,6 @@ const Introsection = () => {
                     title="github"
                   >
                     <span className="fab fa-github"></span>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a
-                    className="icon icon-md icon-dribbble me-3"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="dribbble"
-                  >
-                    <span className="fab fa-dribbble"></span>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a
-                    className="icon icon-md icon-slack"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="slack"
-                  >
-                    <span className="fab fa-slack"></span>
                   </a>
                 </li>
               </ul>
