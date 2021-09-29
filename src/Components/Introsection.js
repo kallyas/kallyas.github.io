@@ -1,3 +1,5 @@
+import profilePic from "../Assets/profile.png"
+
 const Introsection = () => {
     return (
       <div className="section-header bg-primary-app pb-0">
@@ -5,7 +7,7 @@ const Introsection = () => {
           <div className="row justify-content-center text-center">
             <div className="col-lg-8">
               <img
-                src="profile.png"
+                src={profilePic}
                 className="rounded-circle img-thumbnail image-lg border-gray-300 p-2"
                 alt="my Profile"
               />
