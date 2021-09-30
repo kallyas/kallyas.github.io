@@ -38,7 +38,7 @@
     {
         "id": 5,
         "title": "Cake shop",
-        "description": "A simple cake shop",
+        "description": "A simple cake e-commerce application in html, css and javascript",
         "image": "https://images.ctfassets.net/1x5uam8jg0f4/8PoEQppLGo3v0Y72PJTJ9/674c42ddf13e2026bbd14137089c6613/frame_chrome_mac_dark__4_.png",
         "preview": "https://cakes-shop.netlify.app/",
         "github": "https://github.com/kallyas/cakeshop",
