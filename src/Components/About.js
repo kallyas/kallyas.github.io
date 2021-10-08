@@ -38,7 +38,7 @@ const About = () => {
         </div>
         <div className="col-md-4">
           <p>
-            With more than a decade of experience I tackle a broad variety of disciplines in the
+            With vast experience I tackle a broad variety of disciplines in the
             process of creating meaningful products that make a real difference. With carefully
             selected tools and skills I express my visions ranging from product design to the
             creation of user experience up to development and delivery.
