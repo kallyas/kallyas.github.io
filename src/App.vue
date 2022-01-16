@@ -5,7 +5,7 @@
   </div>
 </template>
 <script>
-import AppHeader from '@/components/layout/AppHeader.vue'
+import AppHeader from './components/layout/AppHeader.vue'
 
 export default {
   name: 'app',
