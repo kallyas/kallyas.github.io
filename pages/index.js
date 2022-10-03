@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>My Portfolio</title>
+        <title>My Portfolio </title>
       </Head>
       <div className="App">
         <Navbar />
