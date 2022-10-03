@@ -8,7 +8,7 @@ export const socialIcons = [<FaGithub />, <FaTwitter />];
 
 export const Logo = (
   <Link href="/">
-    <a className={styles.navbar__logo}>Kallyas</a>
+    <a className={styles.logo}>Kallyas</a>
   </Link>
 );
 
