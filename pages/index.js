@@ -6,10 +6,15 @@ import Hero from "../components/Sections/Hero";
 
 export default function Home() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <FooterNav />
-    </div>
+    <>
+      <Head>
+        <title>My Portfolio</title>
+      </Head>
+      <div className="App">
+        <Navbar />
+        <Hero />
+        <FooterNav />
+      </div>
+    </>
   );
 }
