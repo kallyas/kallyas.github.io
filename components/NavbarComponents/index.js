@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import styles from "./NavbarComponents.module.css";
 import Link from "next/link";
@@ -7,7 +8,7 @@ export const socialIcons = [<FaGithub />, <FaTwitter />];
 
 export const Logo = (
   <Link href="/">
-    <a className={styles.logo}>Kallyas</a>
+    <a className={styles.navbar__logo}>Kallyas</a>
   </Link>
 );
 
