@@ -1,0 +1,153 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  min-width: 412px;
+  width: 100vw;
+  z-index: 10001;
+  background-color: rgba(0, 0, 0, 0.703);
+}
+
+.navbar__icon__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 240px;
+}
+
+.navbar__icon {
+  display: grid;
+  place-content: center;
+  width: 50px;
+  font-size: 20px;
+  color: var(--light-color);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.navbar__icon:hover {
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+.navbar__logo__container {
+}
+
+.hamburger__container {
+  display: grid;
+  place-content: center;
+  padding: 10px 0;
+}
+
+.hamburger__container:hover span {
+  background-color: var(--primary-color);
+}
+
+.hamburger__container:hover span:nth-child(1) {
+  transform: translateX(10px);
+  rotate: 45deg;
+}
+
+.hamburger__container:hover span:nth-child(3) {
+  transform: translate(10px 10px);
+  rotate: -45deg;
+}
+
+.hamburger__container:hover span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger .close__hamburger {
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+}
+
+.close__hamburger span {
+  background-color: var(--primary-color);
+}
+
+.close__hamburger span:nth-child(1) {
+  transform: translateX(10px);
+  rotate: 45deg;
+}
+
+.close__hamburger span:nth-child(3) {
+  transform: translate(5px, 5px);
+  rotate: -45deg;
+}
+
+.close__hamburger span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger__line {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--light-color);
+  margin: 5px auto;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+
+.navbar__logo__container {
+}
+
+.show__nav__items {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: var(--dark-color);
+  top: 0;
+  left: 0;
+  transition: all 0.4s ease;
+}
+
+.dropdown__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.navbar__item {
+  color: var(--light-color);
+  margin: 10px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.navbar__item::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: width 0.4s;
+}
+
+.navbar__item:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .navbar__icon__container {
+    display: none;
+  }
+}
